@@ -9,3 +9,10 @@ With the rising imaging resolution of handheld devices, existing multi-exposure 
 ![Image text](https://github.com/zzr-idam/UHD-multi-exposure-image-fusion-algorithm/blob/main/f1.png)
 
 
+## method
+The deep network learns a set of features of the input image, after which a 3D LUT grid is generated based on the size of the input coordinate matrix, and finally, the 3D LUT grid is interpolated on the information of the raw input.
+
+## properties
+1. our method can run in real time on a single GPU [RTX3090 with 24G RAM]; 2. it can also run in real time on the cell phone [huawei].
+
+

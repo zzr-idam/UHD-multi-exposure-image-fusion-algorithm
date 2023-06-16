@@ -16,4 +16,7 @@ The deep network learns a set of features of the input image, after which a 3D L
 1. our method can run in real time on a single GPU [RTX3090 with 24G RAM]; 
 2. it can also run in real time on the cell phone [huawei].
 
+## run 
+
+python 3dlut.py [This is just a network file, but it is plug-and-play and you can use L1 loss to update the network parameters.] 
 
